@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.linchange.newtest1.DetailViewActivity">
+
+    <TextView
+        android:id="@+id/tv_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="石门森林公园"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:gravity="center_vertical"
+        android:background="#9c6969"/>
+
+    <GridView
+        android:id="@+id/gv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ecadad"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:numColumns="3"
+        />
+
+</LinearLayout>

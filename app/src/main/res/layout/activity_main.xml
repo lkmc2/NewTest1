@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#97adac"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="光影相册"
+        android:background="#4893fa"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center_vertical"
+        android:padding="12dp"/>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_title"
+        android:numColumns="2"
+        android:columnWidth="100dp"
+        android:scrollingCache="true"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        />
+</RelativeLayout>
